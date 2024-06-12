@@ -6,6 +6,7 @@ pipeline {
         stage('Stage1') {
           steps {
             sh 'echo "Hello Guys"'
+            sh 'echo "I am added in the pipeline file"'
             sleep 10
           }
         }
