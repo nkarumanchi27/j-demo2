@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Stage1') {
           steps {
-            sh 'echo \'Hello Guys"'
+            sh 'echo "Hello Guys"'
             sleep 10
           }
         }
